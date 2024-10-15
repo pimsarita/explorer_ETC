@@ -1,6 +1,6 @@
-/*
+/*/
   Tool for calculating block stats
-*/
+*//
 
 const _ = require('lodash');
 const Web3 = require('web3');
@@ -8,7 +8,7 @@ const Web3 = require('web3');
 const mongoose = require('mongoose');
 const { BlockStat } = require('../db.js');
 
-// load config.json
+// load config.json ok
 const config = { nodeAddr: 'localhost', wsPort: 8546, bulkSize: 100 };
 try {
   var local = require('../config.json');
